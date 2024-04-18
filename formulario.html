@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição Campeonato 2024</title>
+</head>
+<body>
+    <header align="center">
+        <h1>Circuito de Surf Titanzinho 2024</h1>
+    </header>
+    <main>
+        <fieldset>
+            <form action="#">
+                <h2>Preencha os campos para inscrição:</h2>
+                
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" placeholder="Nome completo"><br>
+                
+                <label for="age">Data de Nascimento:</label><br>
+                <input type="date" id="age"><br>
+
+                <label for="e-mail">E-mail:</label><br>
+                <input type="email" id="e-mail" placeholder="exemplo@gmail.com"><br>
+                <hr>
+
+                <label>Selecione praias em que já surfou:</label><br>
+                <input type="checkbox" name="praias" id="titan" value="titanzinho">
+                <label for="titan">Titanzinho</label><br>
+
+                <input type="checkbox" name="praias" id="pf" value="praia do futuro">
+                <label for="pf">Praia do Futuro</label><br>
+
+                <input type="checkbox" name="praias" id="ponte" value="ponte metalica">
+                <label for="ponte">Ponte Metálica</label><br>
+
+                <input type="checkbox" name="praias" id="iguape" value="iguape">
+                <label for="iguape">Iguape</label><br>
+
+                <input type="checkbox" name="praias" id="lestoest" value="leste oeste">
+                <label for="lestoest">Leste Oeste</label><br>
+                <hr>
+
+                <label>Qual seu nível de Surf ?</label><br>
+                <input type="radio" name="nivel" id="amador" value="amador" checked>
+                <label for="amador">Amador</label>
+
+                <input type="radio" name="nivel" id="inter" value="intermediario">
+                <label for="inter">Intermediário</label>
+
+                <input type="radio" name="nivel" id="pro" value="profissional">
+                <label for="pro">Profissional</label><br>
+                <hr>
+
+                <label for="descreva">Descreva sua trajetória no Surf (máx 300 caracteres):</label><br>
+                <textarea name="trajetória" id="descreva" cols="30" rows="10" maxlength="300" minlength="20"></textarea>
+                <hr>
+
+                <h2>Criar um usuário:</h2>
+
+                <label for="e-mail">E-mail:</label><br>
+                <input type="email" id="e-mail" placeholder="exemplo@gmail.com"><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha"  minlength="8" placeholder="Pelo menos 8 dígitos"><br>
+
+                <input type="reset">
+                <input type="submit" value="Enviar">
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
